@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+main{
+    height: 100vh;
+    padding-top: 20px;
+}
+.head-container{
+    padding: 5px 10px;
+    display:grid;
+    grid-template-columns: 6fr 2fr 1fr 1fr 1fr 1fr;
+    background-color: #F5EEDC;
+    align-items: center;
+
+    
+}
+.head-container button{
+    padding: 10px;
+}
+article{
+    display: grid;
+    grid-template-columns: 4fr 0.7fr;
+    height: 100%;
+}
+.content{
+    background-color: antiquewhite;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 300px;
+    gap: 1em;
+
+   
+}
+aside{
+    background-color: hsla(266, 89%, 43%, 0.308);
+
+}
+figure>img{
+    height: 180px;
+}
+h3{
+    /* font-family: ; */
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-top: .5em;
+}
+.preview{
+color: azure;
+font-weight: 400;
+}
+.blog-body>p:nth-child(3){
+    font-size: 1rem;
+    font-weight: 700;
+}
+figcaption{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition: text-decoration 10s ease-in-out ;
+}
+a:hover{
+    text-decoration: underline;
+}
+/* jhyugjuhy */
+.login-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 95%;
+    background-color: rgb(219, 219, 219);
+}
+section{
+    padding:  10px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    gap: 10px;
+}
+input,button{
+    margin-bottom: 10px;
+    font-size: 19px;
+    padding: 6px;
+}
+button{
+    background-color: green;
+    border-radius: 12px;
+    border: 1px solid black;
+}
+
+.button:hover{
+    background-color: rgb(15, 240, 15);
+}
+.signup-success{
+    color: rgb(47, 173, 47);
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.form-error{
+    color: red;
+    font-size: 30px;
+}
+.form-success{
+    color: rgb(47, 173, 47);
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.blog-container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+   
+}
